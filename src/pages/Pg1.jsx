@@ -4,6 +4,8 @@ import Tilt from '../Component/Tilt'
 import Bottom from '../Component/Bottom'
 import Lg from '../Component/Lg'
 import gsap from 'gsap'
+import { useLoader } from '@react-three/fiber';
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 
 const Pg1 = () => {
 
@@ -60,6 +62,8 @@ const Pg1 = () => {
         
         element.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
     }
+
+    const fbx = useLoader(FBXLoader, '/pioneer-cdj-3000-pioneer-djm-a9/source/Pioneer_CDJ_3000_Pioneer_DJM_A9.fbx');
 
   return (
     <>
