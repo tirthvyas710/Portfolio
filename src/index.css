@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #111;
+  color: #fff;
+}
+#main{
+  position: relative;
+  perspective: 1000px;
+}
+#tilt{
+  /* background-color: red; */
+  width: fit-content;
+  transform:rotatey( 0deg)
+}
