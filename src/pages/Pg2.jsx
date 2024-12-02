@@ -93,7 +93,7 @@ const Pg2 = () => {
         <h1 className={`${!isMobile && 'animate-h1'}`} style={textStyles}>
           Meets 
         </h1>
-        <h1 className={`hover:bg-[url("./bg3.gif")] hover:bg-cover hover:bg-clip-text 
+        <h1 className={`hover:bg-[url("/bg3.gif")] hover:bg-cover hover:bg-clip-text 
                     hover:text-transparent transition-all duration-1000
                     ${!isMobile && 'animate-h1'}`} style={textStyles}>
           Rhythm
