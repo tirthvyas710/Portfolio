@@ -71,7 +71,7 @@ const Pg1 = () => {
     >
         <div 
             ref={bgRef}
-            className='h-full w-full shadow-xl shadow-gray-500 rounded-[20px] sm:rounded-[35px] md:rounded-[50px] bg-[url("./bg2.jpg")] sm:bg-[url("./bg2.jpg")] md:bg-[url("./bg.jpg")] bg-cover bg-center bg-no-repeat' 
+            className='h-full w-full shadow-xl shadow-gray-500 rounded-[20px] sm:rounded-[35px] md:rounded-[50px] bg-[url("/bg2.jpg")] sm:bg-[url("/bg2.jpg")] md:bg-[url("/bg.jpg")] bg-cover bg-center bg-no-repeat' 
         />
         
         <Tilt tilt={tiltref} />    
