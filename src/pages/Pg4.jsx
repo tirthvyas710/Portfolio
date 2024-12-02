@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Wrap Model component in React.memo to prevent unnecessary re-renders
 const Model = React.memo(() => {
-  const fbx = useLoader(FBXLoader, '/pioneer-cdj-3000-pioneer-djm-a9/Pioneer CDJ 3000, Pioneer DJM A9.fbx');
+  const fbx = useLoader(FBXLoader, '/pioneer-cdj-3000-pioneer-djm-a9/Pioneer%20CDJ%203000%2C%20Pioneer%20DJM%20A9.fbx');
   const [scale, setScale] = React.useState(0.015);
 
   // Add resize handler
