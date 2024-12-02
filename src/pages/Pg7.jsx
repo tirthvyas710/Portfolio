@@ -8,7 +8,7 @@ const Pg7 = () => {
       className='h-screen bg-white px-4 sm:px-6 md:px-8 lg:px-5 py-4 sm:py-6 md:py-8 flex flex-col'
     >
       <div 
-        className='relative h-full w-full shadow-xl shadow-gray-500 rounded-[20px] sm:rounded-[30px] md:rounded-[40px] lg:rounded-[50px] bg-[url("./bglast.avif")] bg-cover bg-center overflow-hidden'
+        className='relative h-full w-full shadow-xl shadow-gray-500 rounded-[20px] sm:rounded-[30px] md:rounded-[40px] lg:rounded-[50px] bg-[url("./Bglast.avif")] bg-cover bg-center overflow-hidden'
       >
         <Tilt className='Tilt' options={{ max: 25 }} style={{ height: '100%', width: '100%' }}>
           <div className='absolute inset-0  p-4 sm:p-8 md:p-12 lg:p-16 flex flex-col sm:flex-row justify-evenly items-start'>
