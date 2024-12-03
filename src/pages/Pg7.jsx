@@ -24,7 +24,7 @@ const Pg7 = () => {
                 <hr className='text-[#484848]' />
               </div>
             </div>
-            <h1 className='text-[3vh] sm:text-[3vh] md:text-[10vh] md:pl-10 font-[Impact] w-full sm:w-[33.3%] h-full mt-0 sm:mt-0'> Planing <br /> for <span className='text-[#484848]'>Event</span> </h1>
+            <h1 className='text-[5vh] sm:text-[3vh] md:text-[10vh] md:pl-10 font-[Impact] w-full sm:w-[33.3%] h-full mt-0 sm:mt-0'> Planing <br /> for <span className='text-[#484848]'>Event</span> </h1>
           </div>
         </Tilt>
       </div>
