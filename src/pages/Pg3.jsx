@@ -55,7 +55,7 @@ const Pg3 = () => {
   };
 
   
-  const skillBoxClasses = 'text-xs sm:text-sm md:text-base text-white font-mono h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 rounded-xl transition-all duration-500 flex justify-center items-center hover:scale-105 shadow-lg';
+  const skillBoxClasses = 'text-xs sm:text-sm md:text-base text-white font-mono h-16 w-18 sm:h-20 sm:w-20 md:h-24 md:w-24 rounded-xl transition-all duration-500 flex justify-center items-center hover:scale-105 shadow-lg';
   const handleMouseEnter = (e) => {
     const randomColor = getRandomColor();
     e.currentTarget.style.background = getRandomGradient();
