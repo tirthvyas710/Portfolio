@@ -107,13 +107,13 @@ const Pg4 = () => {
       <div className='h-full w-full flex justify-center items-center bg-gradient-to-br from-red-600 via-purple-600 to-blue-600 rounded-[20px] sm:rounded-[35px] md:rounded-[50px]' >
         <div id='canvas' className=' bg-contain bg-no-repeat h-[75%] w-full  bg-center lg:bg-[url("/try6.avif")]  md:bg-none sm:bg-none flex justify-center items-center ' >
           <div className='relative h-full w-full flex justify-center items-center'>
-            <div className='absolute text-transparent bg-clip-text bg-gradient-to-r from-rose-100 via-pink-300 to-violet-200 
-              text-[10vw] sm:text-[15vw] font-bold h-full w-full flex justify-between items-center flex-col py-20 
+                        <div className='absolute text-transparent bg-clip-text bg-gradient-to-r from-rose-100 via-pink-300 to-violet-500 
+              font-bold h-full w-full flex justify-between items-center flex-col py-20 
               font-["Montserrat"] tracking-tight 
               drop-shadow-[0_10px_10px_rgba(0,0,0,0.4)]
               [text-shadow:_2px_2px_20px_rgb(0_0_0_/_20%)]'> 
-              <p>Good vibes </p>
-              <p>are my code</p>
+              <p className='md:text-[8vh] sm:text-[8vh]'>Good vibes </p>  {{ edit_1 }}
+              <p className='md:text-[8vh] sm:text-[8vh]'>are my code</p> {{ edit_2 }}
             </div>
             {/* Updated camera position for top view */}
             <Canvas camera={{ position: cameraPosition, fov: 45, rotation: [-Math.PI / 2, 0, 0] }}>
