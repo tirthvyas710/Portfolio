@@ -20,7 +20,7 @@ const Model = React.memo(() => {
   React.useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width < 640) setScale(0.0060);      // mobile
+      if (width < 640) setScale(0.0070);      // mobile
       else if (width < 1024) setScale(0.012); // tablet
       else setScale(0.015);                   // desktop
     };
@@ -105,10 +105,10 @@ const Pg4 = () => {
   return (
     <div className='bg-white text-black h-[100vh] px-2 sm:px-3 md:px-5 py-3 sm:py-4 md:py-6'>
       <div className='h-full w-full flex justify-center items-center bg-gradient-to-br from-red-600 via-purple-600 to-blue-600 rounded-[20px] sm:rounded-[35px] md:rounded-[50px]' >
-        <div id='canvas' className=' bg-contain bg-no-repeat h-full w-full bg-center lg:bg-[url("/try6.avif")] md:bg-none sm:bg-none flex justify-center items-center ' >
+        <div id='canvas' className=' bg-contain bg-no-repeat h-[75%] w-full  bg-center lg:bg-[url("/try6.avif")]  md:bg-none sm:bg-none flex justify-center items-center ' >
           <div className='relative h-full w-full flex justify-center items-center'>
             <div className='absolute text-transparent bg-clip-text bg-gradient-to-r from-rose-100 via-pink-300 to-violet-200 
-              text-[12vh] sm:text-[18vh] font-bold h-full w-full flex justify-between items-center flex-col py-20 
+              text-[10vw] sm:text-[15vw] font-bold h-full w-full flex justify-between items-center flex-col py-20 
               font-["Montserrat"] tracking-tight 
               drop-shadow-[0_10px_10px_rgba(0,0,0,0.4)]
               [text-shadow:_2px_2px_20px_rgb(0_0_0_/_20%)]'> 
