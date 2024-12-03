@@ -20,7 +20,7 @@ const Model = React.memo(() => {
   React.useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width < 640) setScale(0.001);      // mobile
+      if (width < 640) setScale(0.0060);      // mobile
       else if (width < 1024) setScale(0.012); // tablet
       else setScale(0.015);                   // desktop
     };
