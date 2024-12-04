@@ -8,10 +8,10 @@ const Header = () => {
           alert('Downloading Resume...')
         }}><button className=' text-white text-xl px-4 py-2 rounded-full border-4 border-white bg-black  hover:bg-[#707070]'>Hire Me</button></a>
        
-       <a href="https://www.instagram.com/tirth_710"> 
-        <i className="ri-disc-fill text-[#c3c3c3] ml-10 text-5xl hover:rotate-[720deg] transition-all duration-1000"></i>
-
-        </a>
+       <a href="https://www.instagram.com/tirth_710" className='transition-all duration-200 animate-pulse ' >
+        <i className="ri-disc-fill text-purple-300 ml-10 text-5xl " > </i>
+</a>
+       
     </div>
     
 
