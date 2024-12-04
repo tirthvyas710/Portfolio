@@ -20,3 +20,31 @@ body{
   width: fit-content;
   transform:rotatey( 0deg)
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #222; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Color of the thumb on hover */
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: #555 #222; /* Thumb color and track color */
+}
